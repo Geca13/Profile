@@ -1,0 +1,16 @@
+.body{
+	padding:50px 100px;
+}
+
+.profile-section{
+	height: 300px;
+}
+
+.profile-section {
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.profile-section div {
+	text-align: center;
+}
