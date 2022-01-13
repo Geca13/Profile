@@ -1,5 +1,5 @@
 .body{
-	padding:50px 100px;
+	padding:50px 200px;
 }
 
 .profile-section{
@@ -13,4 +13,29 @@
 
 .profile-section div {
 	text-align: center;
+	border: solid;
 }
+
+
+.tech{
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: auto;
+}
+
+.tech div{
+	text-align: center;
+	border: solid;
+}
+
+.projects{
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: solid;
+}
+
+@media (max-width: 700px) {
+	.profile-section {
+	display: block;
+	}
+	}
