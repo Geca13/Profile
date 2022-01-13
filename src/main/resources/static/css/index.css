@@ -2,8 +2,13 @@
 	padding:50px 200px;
 }
 
+.main-image{
+	width: 400px;
+	border-radius: 50%;
+}
+
 .profile-section{
-	height: 300px;
+	height: auto;
 }
 
 .profile-section {
@@ -12,8 +17,12 @@
 }
 
 .profile-section div {
-	text-align: center;
-	border: solid;
+	
+	
+}
+
+.info {
+	padding: 20px 50px;;
 }
 
 
@@ -34,8 +43,34 @@
     border: solid;
 }
 
+.title{
+	text-align: center;
+}
+.data{
+	padding-left: 10px;
+	}
+
 @media (max-width: 700px) {
 	.profile-section {
 	display: block;
+	padding-top: 50px;
+	}
+	
+	.body{
+	padding:33px;
+}
+.main-image{
+	
+	width: 300px;
+}
+.info {
+	padding: 0px 0px;;
+}
+td{
+	padding-left: 10px;
+}
+
+.data{
+	padding-left: 70px;
 	}
 	}
