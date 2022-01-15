@@ -21,10 +21,28 @@ public class ProjectController {
 	
 	
 	@GetMapping("/")
-	public String getStartPage(Model model) {
-		model.addAttribute("projects", projectRepository.findAll());
+	public String getStartPage() {
 		return "index";
 	}
+	
+	@GetMapping("/about")
+	public String getAboutPage(Model model) {
+		model.addAttribute("projects", projectRepository.findAll());
+		return "about";
+	}
+	
+	@GetMapping("/experience")
+	public String getExperiencePage() {
+		
+		return "experience";
+	}
+	
+	@GetMapping("/projects")
+	public String getAllProjectsPage(Model model) {
+		model.addAttribute("projects", projectRepository.findAll());
+		return "projects";
+	}
+	
 	
 	@GetMapping("/project/{id}")
 	public String getProjectPage(Model model , @PathVariable("id")Integer id) {

@@ -1,0 +1,50 @@
+body{
+	background-image: url("/img/thumb.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+a{
+	padding-top:20px;
+	color: #49fb35;
+	font-size: 50px;
+	text-decoration:none;
+	text-shadow:
+      0 0 7px #49fb30,
+      0 0 10px #49fb25,
+      0 0 21px #49fb20,
+      0 0 42px #49fb15,
+      0 0 82px #49fb10,
+      0 0 92px #49fb05,
+      0 0 102px #49fb00;
+}
+
+li{
+	list-style-type: none;
+}
+
+h1{
+	color: #49fb35;
+	font-size: 50px;
+	padding-top: 450px;
+}
+
+h2{
+	color: #49fb35;
+	font-size: 40px;
+}
+
+@media (max-width: 700px) {
+	li, h1{
+	font-size: 35px;
+    }
+    h1{
+	padding-top: 350px;
+    }
+    h2{
+	font-size: 25px;
+    }
+}

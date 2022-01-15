@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" th:href="@{/css/navbar.css}">
+  <link rel="stylesheet" th:href="@{/css/index.css}">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     
+   
+  <style>
+ 
+    </style>
+</head>
+
+<body>
+   
+  <div th:replace="fragments/navbar :: navbar"></div>
+    <div class="body">
+     <section class="profile-section">
+      <div>
+       <img class="main-image" th:src="@{/img/profil.jpg}"/>
+      
+      </div>
+      
+      <div class="info">
+         <h1 class="title">Java Developer</h1>
+       <table>
+        <tr>
+        <td>Lives: </td>
+        <td class="data">Skopje</td>
+        </tr>
+        
+        <tr>
+        <td>From:</td>
+        <td class="data">Negotino</td>
+        </tr>
+        
+        <tr>
+        <td>Email:</td>
+        <td class="data">karafiloski84@gmail.com</td>
+        </tr>
+        
+        <tr>
+        <td>Phone:</td>
+        <td class="data">076 27 29 26</td>
+        </tr>
+       </table>
+      <div class="social">
+        <a target="_blank" href="https://github.com/Geca13"><i class="fab fa-github"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/marjan-karafiloski-a01ba9199/"><i class="fab fa-linkedin"></i></a>
+        <a target="_blank" href="https://www.facebook.com/marjan.karafiloski.9"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+     
+     </section>
+     
+     <section class="tech">
+     <div>technologies</div>
+     <div>technologies</div>
+     <div>technologies</div>
+     
+     </section>
+     
+     
+     <section class="projects">
+     <div>technologies</div>
+     
+     
+     </section>
+
+
+    
+
+   
+    
+    </div>
+
+    <!-- Footer -->
+    <div th:replace="fragments/footer :: footer"></div>
+
+<script type="text/javascript" th:src="@{/js/navbar.js}"></script>
+</body>
+
+</html>

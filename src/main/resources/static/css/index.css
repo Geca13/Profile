@@ -1,3 +1,5 @@
+
+
 .body{
 	padding:50px 200px;
 }
@@ -49,6 +51,25 @@
 .data{
 	padding-left: 10px;
 	}
+	
+i{
+	font-size: 25px;
+	padding: 0px 25px;
+	color: #b88806;
+}
+
+​a:hover{
+	color: #594610
+}	
+
+td{
+	padding-top: 30px;
+}
+
+.social{
+	padding-top: 30px;
+	}
+		
 
 @media (max-width: 700px) {
 	.profile-section {
@@ -72,5 +93,15 @@ td{
 
 .data{
 	padding-left: 70px;
-	}
+}
+
+.title{
+	padding-top: 20px;
+}
+.social {
+	padding-bottom: 20px;
+	text-align: center
+}
+
+
 	}
